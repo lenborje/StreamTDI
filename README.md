@@ -156,3 +156,18 @@ Primes: 9592 in 3 ms
 Primes: 78498 in 44 ms
 Primes: 664579 in 640 ms
 ```
+### Comparison with original javatdi2 ###
+```
+javatdi2.java 0.9.3 (September 2019) Lennart Börjeson and Dan Bellander.
+At   0,000 :              4 primes <= 10             in   0,005 secs
+At   0,006 :             25 primes <= 100            in   0,000 secs
+At   0,006 :            168 primes <= 1000           in   0,000 secs
+At   0,007 :           1229 primes <= 10000          in   0,001 secs
+At   0,009 :           9592 primes <= 100000         in   0,003 secs
+At   0,056 :          78498 primes <= 1000000        in   0,046 secs
+At   0,529 :         664579 primes <= 10000000       in   0,473 secs
+Completed in   0,529 secs
+Wall time :   0,529 secs
+User time :   0,522 secs
+CPU time  :   0,523 secs
+```
