@@ -170,10 +170,10 @@ class NotDivisibleByAnyPreviousNumber implements IntPredicate {
 
     @Override
     public boolean test(int value) {
-        var result = product == 1 || gcd(product, value) == 1;
-        if (result) {
+        var isCoPrime = gcd(product, value) == 1;
+        if (isCoPrime) {
             product *= value;
         }
-        return result;
+        return isCoPrime;
     }
 }
