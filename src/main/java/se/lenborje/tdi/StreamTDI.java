@@ -159,7 +159,7 @@ class IncrementedStream implements IntSupplier {
 
 /**
  * A predicate that tests if a number is not divisible by any of the previous numbers.
- * @ImplNote The product of the previous numbers is used to test divisibility. This is a simple and efficient way to
+ * @implNote The product of the previous numbers is used to test divisibility. This is a simple and efficient way to
  * test divisibility by a set of numbers, but since it stores the product as a long, it is limited to the first 15 primes.
  */
 class NotDivisibleByAnyPreviousNumber implements IntPredicate {
